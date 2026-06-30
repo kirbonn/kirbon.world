@@ -5,6 +5,8 @@ title: Gallery
 
 # <img src="/images/GALLERY.png" class="header-icon" alt="Blog Icon"> Gallery
 
+the gallery gets updated periodically...
+
 <div class="masonry-grid">
   {% for image in galleryImages %}
     <img src="/gallery/{{ image }}" class="masonry-item" alt="Gallery Image">
