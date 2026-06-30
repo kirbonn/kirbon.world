@@ -193,12 +193,14 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed; 
     background-position: top center;
     
-    transform: rotate(3deg); 
+    transform: rotate(3deg) translateZ(0); 
+    
+    will-change: transform; 
+    
     z-index: -1; 
     pointer-events: none; 
-    opacity: 0.4; 
+    opacity: 0.3; 
   }
-
 .info-content {
     position: relative; 
     z-index: 10; 
